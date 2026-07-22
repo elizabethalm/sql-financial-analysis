@@ -1,0 +1,16 @@
+#Banco DuckDB (build artifact, can be rebuilt by running the project)
+*.duckdb
+*.duckdb.wal
+
+#Python
+.venv/
+__pycache__/
+*.pyc
+
+#Operating System
+.DS_Store
+Thumbs.db
+
+#Editor
+.vscode/
+.idea/
