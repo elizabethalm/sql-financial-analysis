@@ -6,7 +6,7 @@ Practice analytical SQL on real commercial data by building and organized, versi
 
 # Dataset
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-— ~100k real orders (2016–2018) from Brazilian marketplaces.
+~100k real orders (2016–2018) from Brazilian marketplaces.
 
 Tables used: `orders`, `order_payments`, `order_items`, `customers`.
 The CSVs must be downloaded from Kaggle and placed in `data/raw/`.
