@@ -14,3 +14,9 @@ Thumbs.db
 #Editor
 .vscode/
 .idea/
+
+#Raw data (downloaded from Kaggle - not versioned; see README.md for instructions on how to download)
+data/raw/*.csv
+
+#Downloaded archieves
+*.zip
