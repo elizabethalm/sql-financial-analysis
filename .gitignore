@@ -20,3 +20,8 @@ data/raw/*.csv
 
 #Downloaded archieves
 *.zip
+
+# dbt artifacts (generated - rebuilt on every run)
+target/
+dbt_packages/
+logs/
