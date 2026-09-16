@@ -4,4 +4,4 @@ SELECT
     payment_type AS payment_method,
     payment_installments AS installments,
     payment_value AS amount
-FROM payments
+FROM {{ source('olist', 'payments') }}

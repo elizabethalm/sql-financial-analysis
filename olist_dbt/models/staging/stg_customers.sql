@@ -4,4 +4,4 @@ select
     customer_zip_code_prefix AS zip_code_prefix,
     customer_city AS city,
     customer_state AS state
-from customers
+from {{ source('olist', 'customers') }}

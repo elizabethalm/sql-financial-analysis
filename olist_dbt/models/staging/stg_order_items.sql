@@ -6,4 +6,4 @@ SELECT
     shipping_limit_date,
     price,
     freight_value
-FROM order_items
+FROM {{ source('olist', 'order_items') }}

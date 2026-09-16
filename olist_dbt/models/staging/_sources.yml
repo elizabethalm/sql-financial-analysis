@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: olist
+    schema: main
+    tables:
+      - name: orders
+      - name: customers
+      - name: order_items
+      - name: payments

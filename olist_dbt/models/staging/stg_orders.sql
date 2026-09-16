@@ -6,4 +6,4 @@ select
     order_approved_at as approved_at,
     order_delivered_customer_date as delivered_at,
     order_estimated_delivery_date as estimated_delivery_at
-from orders
+from {{ source('olist', 'orders') }}
